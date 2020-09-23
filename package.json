@@ -1,0 +1,23 @@
+{
+  "name": "node-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "mongoose": "^5.9.23",
+    "nodemon": "^2.0.4",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
